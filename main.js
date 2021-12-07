@@ -1,7 +1,8 @@
-let bananaspin = document.getElementById('infoself');
-
-function spinImage() {
-	bananaspin.rotate(20 * Math.PI/180);
-}
-
-bananaspin.onclick = spinImage;
+$(document).ready(function() {
+   $('#banana').rotate({maxAngle:25,minAngle:-55,
+      bind: [
+        {"mouseover":function(){$(this).rotateAnimation(85); } },
+        {"mouseout":function(){$(this).rotateAnimation(85); } }
+      ]
+   });
+});
