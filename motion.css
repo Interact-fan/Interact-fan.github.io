@@ -1,1 +1,3 @@
-transform: rotate(1.5turn);
+.introCard {
+  transform: rotate(1.5turn);
+}
