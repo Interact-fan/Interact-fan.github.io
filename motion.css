@@ -1,3 +1,9 @@
 .infotranslate {
-  transform: rotate(1.5turn);
+  width: 100%;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center
 }
