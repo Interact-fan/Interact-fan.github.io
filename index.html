@@ -3,45 +3,20 @@
 <h1>Interactive Fan</h1>
 <p>My first game</p>
 </head>
-    <body>
-    <script>
-        $('input').click(function(){
-    var img = $('img');
-    if(img.hasClass('north')){
-        img.attr('class','west');
-    }else if(img.hasClass('west')){
-        img.attr('class','south');
-    }else if(img.hasClass('south')){
-        img.attr('class','east');
-    }else if(img.hasClass('east')){
-        img.attr('class','north');
-    }
-});
-    </script>
-    <script>
-            .north {
-transform:rotate(0deg);
--ms-transform:rotate(0deg); /* IE 9 */
--webkit-transform:rotate(0deg); /* Safari and Chrome */
+<style>
+    .rotate {
+  animation: rotation 8s infinite linear;
 }
-.west {
-transform:rotate(90deg);
--ms-transform:rotate(90deg); /* IE 9 */
--webkit-transform:rotate(90deg); /* Safari and Chrome */
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
-.south {
-transform:rotate(180deg);
--ms-transform:rotate(180deg); /* IE 9 */
--webkit-transform:rotate(180deg); /* Safari and Chrome */
-    
-}
-.east {
-transform:rotate(270deg);
--ms-transform:rotate(270deg); /* IE 9 */
--webkit-transform:rotate(270deg); /* Safari and Chrome */
-}
-    </script>
-<img class="north" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSGPgQ8k88yaWVPRytT957hKLV-89QmZtkZc44q45TEDdqe9sKwqg">
-    <input type="button" value="click me">
-</body>
+    </style>
+    <img src="./costume.png" class="rotate" width="100" height="100" />
+
 </html>
