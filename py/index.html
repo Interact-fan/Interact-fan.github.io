@@ -1,22 +1,10 @@
-<html>
- <body>
-  <head>
-   <title>
-     run
-   </title>
-  </head>
-
-   <form method="post">
-
-    <input type="submit" value="GO" name="GO">
-   </form>
- </body>
-</html>
-
 <?php
-    if(isset($_POST['GO']))
-    {
-        shell_exec("python /py/main.py");
-        echo"success";
-    }
+  require_once "vendor/autoload.php";
+
+  use app\core\App;
+
+  $app = new App();
+  $python = $app->python;
+  $output = $python->set(your python path)->send(data..)->gen();
+  var_dump($ouput);
 ?>
