@@ -1,10 +1,22 @@
-<?php $command = "python ./main.py 2>&1";
-$pid = popen( $command,"r");
-while( !feof( $pid ) )
-{
- echo fread($pid, 256);
- flush();
- ob_flush();
- usleep(100000);
-}
-pclose($pid);?>
+<html>
+ <body>
+  <head>
+   <title>
+     run
+   </title>
+  </head>
+
+   <form method="post">
+
+    <input type="submit" value="GO" name="GO">
+   </form>
+ </body>
+</html>
+
+<?php
+    if(isset($_POST['GO']))
+    {
+        shell_exec("python /py/main.py");
+        echo"success";
+    }
+?>
