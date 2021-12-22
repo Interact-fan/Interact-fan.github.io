@@ -1,0 +1,18 @@
+<div id="hh22">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVkQde1ID5qSLCi8WbHZ87kIaMqKDq-C_7d5_EKZkMwjHvM7RNbGUDq3JEdw15YPBMX90:https://m.media-amazon.com/images/I/512%2BwrpsGaL._AC_SX522_.jpg&usqp=CAU" width="100%px" height="100%px">
+<button type="button" onclick="loadDoc()">Next</button>
+</div>
+
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("hh22").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", "./ajax.txt", true);
+  xhttp.send();
+}
+</script>
