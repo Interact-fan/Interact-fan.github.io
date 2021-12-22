@@ -1,0 +1,16 @@
+p {
+  color: red;
+  text-align: center;
+}
+h1 {
+  transform: rotate(0.5turn);
+  color: lightgray;
+  text-align: bottom;
+}
+body {
+  background: #8a99ff url("https://www.google.com/imgres?imgurl=http%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0285%2F1316%2Fproducts%2Fw0168_1s_Wood-Texture-Floral-Removable-Peel-and-Stick-Wallpaper_Repeating-Pattern-Sample-1_1200x1200.jpg%3Fv%3D1604091573&imgrefurl=https%3A%2F%2Fwallsneedlove.com%2Fproducts%2Fwood-texture-floral-removable-wallpaper&tbnid=iWeqLrGf8Y1iWM&vet=12ahUKEwiL5euN9vf0AhUfg3IEHSzVBrUQMygWegUIARCUAg..i&docid=fSv5Jm-rGFLy9M&w=1200&h=742&itg=1&q=wood%20wallpaper&safe=active&ved=2ahUKEwiL5euN9vf0AhUfg3IEHSzVBrUQMygWegUIARCUAg") no-repeat;
+}
+h2 {
+  font-family: "Lucida Console", "monospace", monospace;
+  color: gray;
+}
