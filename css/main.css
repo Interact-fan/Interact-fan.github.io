@@ -9,6 +9,8 @@ h1 {
 }
 body {
   background: #8c8988 url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE8cdGoz_Ab-yiG1F5U2UtZClol_Xa91tbrL1hpsWmGZCbQGH2FYfamLev3A4lES7jyx8:https://img.as-creation.com/s0/4707634.jpg&usqp=CAU") no-repeat;
+width: auto;
+  height: auto;
 }
 h2 {
   font-family: "Lucida Console", "monospace", monospace;
