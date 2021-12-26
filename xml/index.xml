@@ -2,7 +2,9 @@
 <facts>
   <food>
     <one>Pineapples are good</one>
+    <oneblank>               </oneblank>
     <two>Pineapples don't belong on pizza</two>
+    <twoblank>                            </twoblank>
     <three>Those are facts for Pineapples</three>
       </food>
       </facts>
