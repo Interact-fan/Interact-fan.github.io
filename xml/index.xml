@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <facts>
-  <food category="Pineapple">
+  <food>
     <one>Pineapples are good</one>
     <two>Pineapples don't belong on pizza</two>
     <three>Those are facts for Pineapples</three>
