@@ -1,5 +1,10 @@
 body {
-   background: silver; 
+   background: silver;
+   font-family: verdana;
+  font-size: 20px;
+   color: silver;
+  text-align: center;
+   margin-left: 40px;
 }
 head {
    background: silver; 
