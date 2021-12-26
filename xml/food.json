@@ -1,0 +1,10 @@
+{
+	"facts": {
+		"food": {
+			"one": "Pineapples are good",
+			"two": "Pineapples don't belong on pizza",
+			"three": "Those are facts for Pineapples",
+			"_category": "Pineapple"
+		}
+	}
+}
