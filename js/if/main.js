@@ -5,5 +5,5 @@ z = 11
 if (z > x) {
   alert("true");
 } else if (y > z) {
-  alert("true");
+  alert("y is greater than z");
 }
