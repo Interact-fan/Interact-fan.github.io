@@ -6,6 +6,6 @@ if (z > x) {
   alert("true");
 } else if (y > z) {
   while (x > z) {
-  
+  document.write(Hello World);
 }
 }
