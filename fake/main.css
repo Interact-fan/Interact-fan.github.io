@@ -3,9 +3,9 @@ body {
   margin: 0;
 }
 .header {
-  padding: 60px;
+  padding: 1px;
   text-align: center;
-  background: #1abc9c;
+  background: #cccccc;
   color: white;
   font-size: 30px;
 }
