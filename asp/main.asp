@@ -3,7 +3,7 @@ private void DrawImagePointF(PaintEventArgs e)
 {
              
     // Create image.
-    Image newImage = Image.FromFile("./");
+    Image newImage = Image.FromFile("./cube.png");
              
     // Create point for upper-left corner of image.
     PointF ulCorner = new PointF(100.0F, 100.0F);
